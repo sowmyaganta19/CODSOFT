@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #BBE7FE;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    z-index: 500;
+    background-color: #3CACAE;
+    border: 1px solid purple;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.icon{
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 600;
+    color: purple;
+}
+.nav{
+    display: none;
+    position: absolute;
+    left: 25px;
+}
+
+
+
+.home{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+    border-radius: 5px;
+}
+.home a,.login a{
+    padding: 2px;
+    border-radius: 5px;
+    color: purple
+}
+.login{
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+header div .sign{
+    border-radius: 15px;
+}
+div{
+    margin: 15px 5px 0px 5px;
+}
+.sign{
+    height: 80%;
+    width: 30%;
+    background-color: #EFF1DB;
+    color: #5E376D;
+    text-align: center;
+    border: 2px solid black;
+    padding: 2px;
+}
+.sign:hover{
+    color: purple;
+    text-transform: capitalize;
+    background-color: #BBE7FE;
+    box-shadow: 2px 4px 28px purple;    
+}
+#home{
+    margin: 55px 10% 5px 10%;
+    background-color: #3CACAE;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+.home_1{
+    padding: 5px;
+    font-size: 1.5em;
+    flex: 1 400px;
+}
+.home_2{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    color: purple;
+    background-color: #EFF1DB;
+    margin: 75px 100px 0 100px;
+    border: 7px solid purple;
+    border-radius: 25px;
+}
+.home_2{
+    font-size: 1.8em;
+    font-weight: 900;
+}
+.home_2:hover{
+    box-shadow: 2px 4px 28px purple;
+}
+#abouts{
+    margin: 5px 10% 5px 10%;
+    background-color: #3CACAE;
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+.about{
+    width: 400px;
+    font-size: 1.5em;
+    flex-grow: 1;
+    padding: 20px;
+}
+.blogs{
+    width: 400px;
+    flex-grow: 1;
+}
+.blogs ol li{
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 5px;
+}
+h1{
+    color: purple;
+}
+#solutions{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+.sol{
+    margin-top: 5px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border: 3px solid purple;
+    background-color: #EFF1DB;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+.sol:hover{
+    box-shadow: 2px 4px 28px purple;
+}
+
+#pricing{
+    margin: 10px 10% 10px 10%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.price{
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3em;
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #EFF1DB;
+    color: black;
+    margin: 5px;
+}
+.price h1{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.basic h1,.basic button{
+    background-color: skyblue;
+    cursor: pointer;
+}
+.super h1,.super button{
+    background-color: lawngreen;
+    cursor: pointer;
+}
+.premium h1,.premium button{
+    background-color: gold;
+    cursor: pointer;
+}
+.price button{
+    width: 50%;
+    height: 40px;
+    font-size: 1em;
+    margin-top: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding-bottom: 3px;
+}
+
+.price:hover,.price button:hover{
+    box-shadow: 2px 4px 28px purple;
+}
+
+footer{
+    margin-top: 15px;
+    background-color: #3CACAE;
+    border-radius: 5px;
+    border: 1px solid purple;
+    text-align: center;
+    padding: 5px;
+}
+footer div{
+    height: 50%;
+}
+.footer_2{
+    padding: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.footer_1{
+    font-size: xx-large;
+    color: purple;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer_1 div{
+    margin-left: 10%;
+}
+.ff_2{
+    width: 400px;
+    margin-top: 5px;
+}
+.ff_1{
+    font-size: large;
+}
+
+
+@media  screen and (max-width:1200px) {
+    header .login{
+        font-size: large;
+        align-self: center;
+    }
+}
+@media screen and (max-width:1180px) {
+    #home .home_2{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:950px){
+    header .home a{
+        display: none;
+    }
+    header .home{
+        width: 100px;
+    }
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    header .icon{
+        width: 200%;
+        margin-left: 100px;
+    }
+    header .login{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    #solutions .sol p{
+        display: none;
+    }
+    .sol{
+        width: 80%;
+        height: auto;
+    }
+}
+@media screen and (max-width:460px) {
+    header .icon{
+        font-size: x-large;
+    }
+    #home .home_2{
+        font-size: large;
+        width: auto;
+        height: auto;
+    }
+}
+@media screen and (max-width:300px) {
+    .home_2 h1{
+        display: none;
+    }
+    .home_2{
+        border: 0px;
+        background-color: inherit;
+    }
+    .home_1 p{
+        display: none;
+    }
+    #abouts p,#abouts ol{
+        display: none;
+    }
+    h1{
+        font-size: x-large;
+    }
+    .price h3,h4{
+        display: none;
+    }
+    .price hr{
+        display: none;
+    }
+    .footer_2{
+        display: none;
+    }
+    *{
+        font-size: large;
+    }
+    h1{
+        font-size: medium;
+    }
+}
+.ff_2 a:hover{
+    box-shadow: 0 0 2rem purple;
+}
